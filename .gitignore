@@ -1,0 +1,53 @@
+# =============================================================
+# e2studio / Renesas FSP 项目 .gitignore
+# =============================================================
+
+# ---- FSP 自动生成代码 (e2studio FSP Configurator 生成) ----
+**/ra_gen/
+**/ra_cfg/
+
+# ---- FSP 库源码 (由 Renesas e2studio 管理, 不应提交) ----
+**/ra/
+
+# ---- 构建输出 ----
+**/Debug/
+**/Release/
+**/build/
+
+# ---- Eclipse / e2studio 配置 ----
+**/.settings/
+**/.metadata/
+**/script/
+**/.api_xml
+**/.clangd
+**/.secure_xml
+**/.secure_rzone
+**/.secure_azone
+**/JLinkLog.log
+**/ra_cfg.txt
+
+# ---- 编译产物 (散落在项目中的临时文件) ----
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.srec
+*.lst
+*.size
+
+# ---- 调试配置 ----
+*.launch
+*.jlink
+*.dbgdt
+*.dnx
+
+# ---- Python 缓存 ----
+__pycache__/
+*.pyc
+
+# ---- 操作系统 ----
+Thumbs.db
+Desktop.ini
+.DS_Store

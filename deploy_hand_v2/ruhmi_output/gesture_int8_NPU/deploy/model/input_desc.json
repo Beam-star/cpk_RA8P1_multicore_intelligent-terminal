@@ -1,0 +1,11 @@
+{
+    "serving_default_images_0": [
+        [
+            1,
+            96,
+            96,
+            1
+        ],
+        "int8"
+    ]
+}
